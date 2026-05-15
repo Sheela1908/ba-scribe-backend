@@ -1,7 +1,4 @@
 # list of tools
-fastapi/uvicorn--> to create web server
-google-generativeai-->official library to use gemini API key
-python-dotenv-->to keep Api key safe and hidden.
 
 fastapi
 uvicorn

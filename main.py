@@ -49,4 +49,4 @@ async def process_notes(request: NoteRequest):
 
 if __name__ == "__main__":
     port=int(os.environ.get("PORT", 8000))
-    unvicorn.run(app, host="0.0.0", port=port)
+    uvicorn.run(app, host="0.0.0", port=port)
